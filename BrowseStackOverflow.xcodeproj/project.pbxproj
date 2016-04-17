@@ -16,6 +16,18 @@
 		F33C2F1A1CC2B7AA0025919D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F33C2F181CC2B7AA0025919D /* LaunchScreen.storyboard */; };
 		F33C2F251CC2B7AA0025919D /* BrowseStackOverflowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F33C2F241CC2B7AA0025919D /* BrowseStackOverflowTests.m */; };
 		F33C2F301CC2B7AA0025919D /* BrowseStackOverflowUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F33C2F2F1CC2B7AA0025919D /* BrowseStackOverflowUITests.m */; };
+		F3737E541CC397CB0014259E /* Topic.m in Sources */ = {isa = PBXBuildFile; fileRef = F3737E531CC397CB0014259E /* Topic.m */; };
+		F3737E551CC397CB0014259E /* Topic.m in Sources */ = {isa = PBXBuildFile; fileRef = F3737E531CC397CB0014259E /* Topic.m */; };
+		F3737E561CC397CB0014259E /* Topic.m in Sources */ = {isa = PBXBuildFile; fileRef = F3737E531CC397CB0014259E /* Topic.m */; };
+		F3737E571CC3A0060014259E /* TopicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3737E501CC3972F0014259E /* TopicTests.m */; };
+		F3737E5A1CC3A4890014259E /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = F3737E591CC3A4890014259E /* Question.m */; };
+		F3737E5B1CC3A4890014259E /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = F3737E591CC3A4890014259E /* Question.m */; };
+		F3737E5C1CC3A4890014259E /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = F3737E591CC3A4890014259E /* Question.m */; };
+		F3737E5E1CC3A5460014259E /* QuestionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3737E5D1CC3A5460014259E /* QuestionTests.m */; };
+		F38327851CC3F003008C209C /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = F38327841CC3F003008C209C /* Person.m */; };
+		F38327861CC3F003008C209C /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = F38327841CC3F003008C209C /* Person.m */; };
+		F38327871CC3F003008C209C /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = F38327841CC3F003008C209C /* Person.m */; };
+		F38327891CC3F06B008C209C /* PersonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F38327881CC3F06B008C209C /* PersonTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +66,15 @@
 		F33C2F2B1CC2B7AA0025919D /* BrowseStackOverflowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrowseStackOverflowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F33C2F2F1CC2B7AA0025919D /* BrowseStackOverflowUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrowseStackOverflowUITests.m; sourceTree = "<group>"; };
 		F33C2F311CC2B7AA0025919D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3737E501CC3972F0014259E /* TopicTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TopicTests.m; path = ../BrowseStackOverflowUITests/TopicTests.m; sourceTree = "<group>"; };
+		F3737E521CC397CB0014259E /* Topic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Topic.h; sourceTree = "<group>"; };
+		F3737E531CC397CB0014259E /* Topic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Topic.m; sourceTree = "<group>"; };
+		F3737E581CC3A4890014259E /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
+		F3737E591CC3A4890014259E /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
+		F3737E5D1CC3A5460014259E /* QuestionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionTests.m; sourceTree = "<group>"; };
+		F38327831CC3F003008C209C /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		F38327841CC3F003008C209C /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		F38327881CC3F06B008C209C /* PersonTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,16 +125,22 @@
 		F33C2F061CC2B7AA0025919D /* BrowseStackOverflow */ = {
 			isa = PBXGroup;
 			children = (
+				F33C2F1B1CC2B7AA0025919D /* Info.plist */,
+				F33C2F161CC2B7AA0025919D /* Assets.xcassets */,
+				F33C2F131CC2B7AA0025919D /* Main.storyboard */,
+				F33C2F181CC2B7AA0025919D /* LaunchScreen.storyboard */,
 				F33C2F0A1CC2B7AA0025919D /* AppDelegate.h */,
 				F33C2F0B1CC2B7AA0025919D /* AppDelegate.m */,
 				F33C2F0D1CC2B7AA0025919D /* MasterViewController.h */,
 				F33C2F0E1CC2B7AA0025919D /* MasterViewController.m */,
 				F33C2F101CC2B7AA0025919D /* DetailViewController.h */,
 				F33C2F111CC2B7AA0025919D /* DetailViewController.m */,
-				F33C2F131CC2B7AA0025919D /* Main.storyboard */,
-				F33C2F161CC2B7AA0025919D /* Assets.xcassets */,
-				F33C2F181CC2B7AA0025919D /* LaunchScreen.storyboard */,
-				F33C2F1B1CC2B7AA0025919D /* Info.plist */,
+				F3737E521CC397CB0014259E /* Topic.h */,
+				F3737E531CC397CB0014259E /* Topic.m */,
+				F3737E581CC3A4890014259E /* Question.h */,
+				F3737E591CC3A4890014259E /* Question.m */,
+				F38327831CC3F003008C209C /* Person.h */,
+				F38327841CC3F003008C209C /* Person.m */,
 				F33C2F071CC2B7AA0025919D /* Supporting Files */,
 			);
 			path = BrowseStackOverflow;
@@ -130,8 +157,11 @@
 		F33C2F231CC2B7AA0025919D /* BrowseStackOverflowTests */ = {
 			isa = PBXGroup;
 			children = (
-				F33C2F241CC2B7AA0025919D /* BrowseStackOverflowTests.m */,
 				F33C2F261CC2B7AA0025919D /* Info.plist */,
+				F33C2F241CC2B7AA0025919D /* BrowseStackOverflowTests.m */,
+				F3737E501CC3972F0014259E /* TopicTests.m */,
+				F3737E5D1CC3A5460014259E /* QuestionTests.m */,
+				F38327881CC3F06B008C209C /* PersonTests.m */,
 			);
 			path = BrowseStackOverflowTests;
 			sourceTree = "<group>";
@@ -139,8 +169,8 @@
 		F33C2F2E1CC2B7AA0025919D /* BrowseStackOverflowUITests */ = {
 			isa = PBXGroup;
 			children = (
-				F33C2F2F1CC2B7AA0025919D /* BrowseStackOverflowUITests.m */,
 				F33C2F311CC2B7AA0025919D /* Info.plist */,
+				F33C2F2F1CC2B7AA0025919D /* BrowseStackOverflowUITests.m */,
 			);
 			path = BrowseStackOverflowUITests;
 			sourceTree = "<group>";
@@ -277,7 +307,10 @@
 			files = (
 				F33C2F0C1CC2B7AA0025919D /* AppDelegate.m in Sources */,
 				F33C2F0F1CC2B7AA0025919D /* MasterViewController.m in Sources */,
+				F38327851CC3F003008C209C /* Person.m in Sources */,
 				F33C2F091CC2B7AA0025919D /* main.m in Sources */,
+				F3737E5A1CC3A4890014259E /* Question.m in Sources */,
+				F3737E541CC397CB0014259E /* Topic.m in Sources */,
 				F33C2F121CC2B7AA0025919D /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,7 +319,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F38327861CC3F003008C209C /* Person.m in Sources */,
+				F38327891CC3F06B008C209C /* PersonTests.m in Sources */,
 				F33C2F251CC2B7AA0025919D /* BrowseStackOverflowTests.m in Sources */,
+				F3737E5E1CC3A5460014259E /* QuestionTests.m in Sources */,
+				F3737E5B1CC3A4890014259E /* Question.m in Sources */,
+				F3737E571CC3A0060014259E /* TopicTests.m in Sources */,
+				F3737E551CC397CB0014259E /* Topic.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +333,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3737E5C1CC3A4890014259E /* Question.m in Sources */,
+				F3737E561CC397CB0014259E /* Topic.m in Sources */,
+				F38327871CC3F003008C209C /* Person.m in Sources */,
 				F33C2F301CC2B7AA0025919D /* BrowseStackOverflowUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -502,6 +544,7 @@
 				F33C2F361CC2B7AA0025919D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F33C2F371CC2B7AA0025919D /* Build configuration list for PBXNativeTarget "BrowseStackOverflowTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +553,7 @@
 				F33C2F391CC2B7AA0025919D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F33C2F3A1CC2B7AA0025919D /* Build configuration list for PBXNativeTarget "BrowseStackOverflowUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +562,7 @@
 				F33C2F3C1CC2B7AA0025919D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
